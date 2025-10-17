@@ -62,8 +62,6 @@ Se definieron los parámetros principales:
 | **Imagen** | Ubuntu Server 24.04 LTS |
 | **Tamaño** | Standard_D2s_v3 - 2 vcpu, 8 GiB de memoria |
 | **Autenticación** | Contraseña |
-| **Nombre de usuario** | andresgary |
-| **Contraseña** | Andresgary8113 |
 | **Puertos publicos** | Permitir puertos seleccionados |
 | **Puertos de entrada** | 22 (SSH), 80 (HTTP), 443 (HTTPS) |
 
