@@ -24,33 +24,16 @@ Una vez validada la cuenta, Microsoft otorga:
 
 ---
 
-## 2. Ingreso al portal de Azure
+## 2. Creación de la Maquina Virtual en azure
 
-Tras la activación, se accedió al panel principal en:  
+### 2.1 Accede al panel principal en:  
 🔗 [https://portal.azure.com](https://portal.azure.com)
+  
+En el buscador superior escribe **“máquinas virtuales”**
+luego le das en crear, y vuelves a seleccionar maquinas virtuales.
+> **“Máquinas virtuales → Crear → Máquina virtual”** 
 
-La interfaz principal permite crear y gestionar recursos.  
-En el buscador superior escribe **“máquinas virtuales”**:
-
-
-
-En la vista se muestra el acceso directo a:
-- Crear un nuevo recurso  
-- Ver las máquinas virtuales existentes  
-- Revisar los grupos de recursos recientes 
-- Gestionar suscripciones de Azure for Students  
-
----
-
-## 3. Creación de la Máquina Virtual (VM)
-
-### 3.1 Selección del recurso
-En el menú de servicios se seleccionó:
-> **“Máquinas virtuales → Crear”**
-
-Esto abre el asistente para generar una nueva VM.
-
-### 3.2 Configuración básica
+### 2.2 Configuración básica
 Se definieron los parámetros principales:
 
 | Parámetro | Valor asignado |
@@ -65,15 +48,21 @@ Se definieron los parámetros principales:
 | **Puertos publicos** | Permitir puertos seleccionados |
 | **Puertos de entrada** | 22 (SSH), 80 (HTTP), 443 (HTTPS) |
 
-### 3.3 Grupo de recursos
-Durante la creación se generó un grupo de recursos llamado **`pokedex-prod`**, que agrupa todos los componentes relacionados con la VM.
+### 2.3 Revisión y creación
+Una vez completados los campos, Azure mostró un **resumen de la configuración**.  
+Tras la validación, se pulsó **“Crear”**, iniciando el despliegue automático de la VM.
 
 ---
 
-## 4. Revisión y creación
+## 3. Configurar las reglas de red(NSG)
 
-Una vez completados los campos, Azure mostró un **resumen de la configuración**.  
-Tras la validación, se pulsó **“Crear”**, iniciando el despliegue automático de la VM.
+### 3.1 Selección del recurso
+selecciona la maquina virtual → Redes → Configuración de red
+
+---
+
+## 4. 
+
 
 El proceso tardó entre 2 y 4 minutos. Al finalizar, se asignó automáticamente:
 - Una **IP pública** (para conexión SSH y acceso web)
