@@ -55,15 +55,20 @@ Se definieron los parámetros principales:
 
 | Parámetro | Valor asignado |
 |------------|----------------|
-| **Nombre de la VM** | `vm-coolify` |
+| **Suscripción** | `Azure for Students` |
+| **Grupo de recursos** | `pokedex-prod` |
+| **Nombre de la VM** | `vm-pokedex` |
 | **Región** | La más cercana geográficamente |
-| **Imagen** | Ubuntu Server 22.04 LTS |
-| **Tamaño** | Estándar B1s (compatible con créditos gratuitos) |
-| **Autenticación** | Usuario + contraseña / Clave SSH |
-| **Puertos abiertos** | 22 (SSH), 80 (HTTP), 443 (HTTPS) |
+| **Imagen** | Ubuntu Server 24.04 LTS |
+| **Tamaño** | Standard_D2s_v3 - 2 vcpu, 8 GiB de memoria |
+| **Autenticación** | Contraseña |
+| **Nombre de usuario** | andresgary |
+| **Contraseña** | Andresgary8113 |
+| **Puertos publicos** | Permitir puertos seleccionados |
+| **Puertos de entrada** | 22 (SSH), 80 (HTTP), 443 (HTTPS) |
 
 ### 3.3 Grupo de recursos
-Durante la creación se generó un grupo de recursos llamado **`rg-coolify`**, que agrupa todos los componentes relacionados con la VM.
+Durante la creación se generó un grupo de recursos llamado **`pokedex-prod`**, que agrupa todos los componentes relacionados con la VM.
 
 ---
 
