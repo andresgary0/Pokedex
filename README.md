@@ -13,7 +13,7 @@ Se ingresó al sitio oficial de registro de Azure for Students:
 🔗 [https://azure.microsoft.com/es-es/free/students/](https://azure.microsoft.com/es-es/free/students/)
 
 ### 1.2 Requisitos
-- Correo institucional activo (por ejemplo: `usuario@universidad.edu`)  
+- Correo institucional activo 
 - Acceso a Internet estable  
 - Verificación académica (Azure valida que el correo pertenece a una institución educativa)
 
@@ -30,14 +30,14 @@ Tras la activación, se accedió al panel principal en:
 🔗 [https://portal.azure.com](https://portal.azure.com)
 
 La interfaz principal permite crear y gestionar recursos.  
-En el buscador superior se escribió **“máquinas virtuales”**, tal como se observa en la siguiente imagen:
+En el buscador superior escribe **“máquinas virtuales”**:
 
 
 
 En la vista se muestra el acceso directo a:
 - Crear un nuevo recurso  
 - Ver las máquinas virtuales existentes  
-- Revisar los grupos de recursos recientes (por ejemplo, `rg-coolify`)  
+- Revisar los grupos de recursos recientes 
 - Gestionar suscripciones de Azure for Students  
 
 ---
